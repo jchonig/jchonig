@@ -77,9 +77,12 @@ def main():
 
     template = "README.md.j2"
 
-    params = { }
-    params['created']['template'] = "README.md.j2"
-    params['created']['at'] = datetime.datetime.utcnow().isoformat()
+    params = {
+        'created': {
+            'template': "README.md.j2",
+            'at': datetime.datetime.utcnow().isoformat()
+        }
+    }
 
     j2_env = jinja2.Environment(loader=jinja2.FileSystemLoader(
         os.path.join(root, "templates"),
