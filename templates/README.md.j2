@@ -10,7 +10,9 @@
 {% if orgs -%}
 ## My Organizations
   {% for org in orgs.values() -%}
-* [{{ org.name }}]({{ org.url }}): {{ org.description }}
+| Name | Description |
+| --- | --- |
+| [{{ org.name }}]({{ org.url }}) | {{ org.description }} |
   {% endfor -%}
 {% endif -%}
 
