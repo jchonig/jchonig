@@ -43,7 +43,8 @@ def org_parser(result, data):
     for org in data:
         orgs[org["login"]] = org
 
-    result.setdefault("org", {}).update(orgs)        
+    result.setdefault("orgs", {})
+    result["orgs"].update(orgs)
 
 def fetch_ql(client, oauth_token, result, query, category, parser):
     has_next_page = True
