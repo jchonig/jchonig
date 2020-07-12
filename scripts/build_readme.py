@@ -36,8 +36,6 @@ def make_query(query, after_cursor=None):
 def org_parser(result, data):
     """ Parse the requested data """
 
-    pprint.pprint(data)
-
     orgs = {}
 
     for org in data:
@@ -47,6 +45,7 @@ def org_parser(result, data):
     result["orgs"].update(orgs)
 
 def fetch_ql(client, oauth_token, query, category, parser):
+    """ Execute a query and return the data """
     has_next_page = True
     after_cursor = None
 
@@ -58,8 +57,6 @@ def fetch_ql(client, oauth_token, query, category, parser):
             headers={"Authorization": "Bearer {}".format(oauth_token)},
         )
 
-        pprint.pprint(data)
-
         viewer = data["data"]["viewer"]
         parser(result, viewer[category]["nodes"])
         has_next_page = viewer[category]["pageInfo"][
@@ -70,6 +67,7 @@ def fetch_ql(client, oauth_token, query, category, parser):
     return result
 
 def main():
+    """ Where it all happens """
 
     root = pathlib.Path(__file__).parent.parent.resolve()
     print("root: %s" % root)
@@ -77,6 +75,10 @@ def main():
 
     token = os.environ.get("JCHONIG_TOKEN", "")
 
+    # Set up our environment to find the template
+    j2_env = jinja2.Environment(loader=jinja2.FileSystemLoader(
+        os.path.join(root, "templates"),
+        followlinks=True))
     template = "README.md.j2"
 
     params = {
@@ -89,10 +91,6 @@ def main():
     params.update(fetch_ql(client, token, ORG_QUERY, "organizations", org_parser))
 
     pprint.pprint(params)
-
-    j2_env = jinja2.Environment(loader=jinja2.FileSystemLoader(
-        os.path.join(root, "templates"),
-        followlinks=True))
 
     try:
         contents = j2_env.get_template(template).render(**params)
