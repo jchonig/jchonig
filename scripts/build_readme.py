@@ -38,6 +38,8 @@ def org_parser(result, data):
 
     pprint.pprint(data)
 
+    orgs = {}
+
     for org in data:
         orgs[org["login"]] = org
 
