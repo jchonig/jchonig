@@ -14,8 +14,6 @@
   {% endfor -%}
 {% endif -%}
 
-<a href="https://github.com/jchonig/jchonig/actions"><img src="https://github.com/jchonig/jchonig/workflows/Build%20README/badge.svg" align="right" alt="Build README"></a>
-
 {% if repos -%}
 ## My Repositories
 ### Owned
@@ -25,13 +23,15 @@
 | [{{ repo.name }}]({{ repo.url }}) | {{ repo.description }} |
   {% endfor -%}
 ### Forked
-|---|---|
 | Name | Description | Parent |
 |---|---|---|
   {% for repo in repos.values() if repo.isFork -%}
 | [{{ repo.name }}]({{ repo.url }}) | {{ repo.description }} | [{{repo.parent.nameWithOwner }}]({{ repo.parent.url }}) |
   {% endfor -%}
 {% endif -%}
+
 ---
 
 Created via jinja2 at {{ created.at }} from {{ created.template }}
+
+<a href="https://github.com/jchonig/jchonig/actions"><img src="https://github.com/jchonig/jchonig/workflows/Build%20README/badge.svg" align="right" alt="Build README"></a>
