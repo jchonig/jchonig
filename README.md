@@ -37,6 +37,6 @@
   | [puppet-lldpd](https://github.com/jchonig/puppet-lldpd) | Module to manage lldpd package, service and facts | [voxpupuli/puppet-lldpd](https://github.com/voxpupuli/puppet-lldpd) |
   ---
 
-Created via jinja2 at 2020-07-12T14:44:56.438955 from README.md.j2
+Created via jinja2 at 2020-07-12T15:35:44.962914 from README.md.j2
 
 <a href="https://github.com/jchonig/jchonig/actions"><img src="https://github.com/jchonig/jchonig/workflows/Build%20README/badge.svg" align="right" alt="Build README"></a>
