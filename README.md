@@ -1,4 +1,4 @@
-# ![Jeffrey Honig](https://0.gravatar.com/avatar/b25e2ae1f07ec30647f346df81d2d841?s=120)
+# ![Jeffrey Honig](//0.gravatar.com/avatar/b25e2ae1f07ec30647f346df81d2d841?s=120)
 
 ## About me
 
@@ -37,6 +37,6 @@
   | [puppet-lldpd](https://github.com/jchonig/puppet-lldpd) | Module to manage lldpd package, service and facts | [voxpupuli/puppet-lldpd](https://github.com/voxpupuli/puppet-lldpd) |
   ---
 
-Created via jinja2 at 2020-07-12T14:35:47.744809 from README.md.j2
+Created via jinja2 at 2020-07-12T14:38:36.052593 from README.md.j2
 
 <a href="https://github.com/jchonig/jchonig/actions"><img src="https://github.com/jchonig/jchonig/workflows/Build%20README/badge.svg" align="right" alt="Build README"></a>
