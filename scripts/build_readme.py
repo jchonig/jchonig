@@ -60,7 +60,7 @@ def fetch_ql(client, oauth_token, query, category, parser):
         pprint.pprint(data)
 
         viewer = data["data"]["viewer"]
-        parser(result, viewer[category])
+        parser(result, viewer[category]["nodes"])
         has_next_page = viewer[category]["pageInfo"][
             "hasNextPage"
         ]
