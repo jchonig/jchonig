@@ -45,7 +45,7 @@ def org_parser(result, data):
 
     result.setdefault("org", {}).update(orgs)        
 
-def fetch_ql(client, oauth_token, query, category, parser):
+def fetch_ql(client, oauth_token, result, query, category, parser):
     has_next_page = True
     after_cursor = None
 
@@ -68,7 +68,6 @@ def fetch_ql(client, oauth_token, query, category, parser):
 
     return result
 
-
 def main():
 
     root = pathlib.Path(__file__).parent.parent.resolve()
@@ -86,7 +85,9 @@ def main():
         }
     }
 
-    fetch_ql(client, token, ORG_QUERY, "organizations", org_parser)
+    fetch_ql(client, token, params, ORG_QUERY, "organizations", org_parser)
+
+    pprint.pprint(params)
 
     j2_env = jinja2.Environment(loader=jinja2.FileSystemLoader(
         os.path.join(root, "templates"),
