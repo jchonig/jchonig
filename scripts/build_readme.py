@@ -12,7 +12,7 @@ from python_graphql_client import GraphqlClient
 ORG_QUERY="""
 query {
   viewer {
-    organizations(first: 100, after:{%s}) {
+    organizations(first: 100, after:%s) {
       pageInfo {
         hasNextPage
         endCursor
