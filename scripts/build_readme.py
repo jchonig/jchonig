@@ -36,8 +36,6 @@ def make_query(query, after_cursor=None):
 def org_parser(result, data):
     """ Parse the requested data """
 
-    orgs = {}
-
     pprint.pprint(data)
 
     for org in data:
@@ -46,7 +44,7 @@ def org_parser(result, data):
     result.setdefault("orgs", {})
     result["orgs"].update(orgs)
 
-def fetch_ql(client, oauth_token, result, query, category, parser):
+def fetch_ql(client, oauth_token, query, category, parser):
     has_next_page = True
     after_cursor = None
 
@@ -86,7 +84,7 @@ def main():
         }
     }
 
-    fetch_ql(client, token, params, ORG_QUERY, "organizations", org_parser)
+    params.update(fetch_ql(client, token, ORG_QUERY, "organizations", org_parser))
 
     pprint.pprint(params)
 
