@@ -12,7 +12,7 @@ from python_graphql_client import GraphqlClient
 ORG_QUERY="""
 query {
   viewer {
-    organizations(first: 100, after:{after_cursor}) {
+    organizations(first: 100, after:{%s}) {
       pageInfo {
         hasNextPage
         endCursor
@@ -31,7 +31,7 @@ query {
 def make_query(query, after_cursor=None):
     """ Insert the cursor into the query """
     
-    return query.format(after_cursor=after_cursor or "null")
+    return query % (after_cursor or "null")
 
 def org_parser(result, data):
     """ Parse the requested data """
