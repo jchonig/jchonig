@@ -9,6 +9,31 @@ import sys
 
 from python_graphql_client import GraphqlClient
 
+REPO_QUERY="""
+query {
+  viewer {
+    repositories(first: 100, privacy:PUBLIC, after:%s) {
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
+      nodes {
+        name
+	nameWithOwner
+        description
+        isArchived
+        isFork
+        parent {
+          nameWithOwner
+          url
+        }
+        url
+      }
+    }
+  }
+}
+"""
+
 ORG_QUERY="""
 query {
   viewer {
@@ -27,6 +52,19 @@ query {
   }
 }
 """
+
+def repo_parser(result, data):
+    """ Parse the repo data """
+
+    repos = {}
+
+    for repo in data:
+        if repo["nameWithOwner"].startswith("FRC5254"):
+            continue
+        repos[repo["nameWithOwner"]] = repo
+
+    result.setdefault("repos", {})
+    result["repos"].update(repos)
 
 def make_query(query, after_cursor=None):
     """ Insert the cursor into the query """
@@ -89,6 +127,7 @@ def main():
     }
 
     params.update(fetch_ql(client, token, ORG_QUERY, "organizations", org_parser))
+    params.update(fetch_ql(client, token, REPO_QUERY, "repositories", repo_parser))
 
     pprint.pprint(params)
 
