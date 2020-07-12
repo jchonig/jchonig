@@ -8,10 +8,10 @@
 * [LinkedIn](https://www.linkedin.com/in/jchonig/)
 
 {% if orgs -%}
-## My Organizations
-  {% for org in orgs.values() -%}
 | Name | Description |
 |---|---|
+## My Organizations
+  {% for org in orgs.values() -%}
 | [{{ org.name }}]({{ org.url }}) | {{ org.description }} |
   {% endfor -%}
 {% endif -%}
