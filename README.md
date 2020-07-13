@@ -2,6 +2,16 @@
 
 ## About me
 
+I mostly work on system Configuration Management projects (Puppet,
+Ansible).
+
+Many of these repos are dockerized versions of system services I run
+on my home systems.
+
+I really like building containers based on the s6-overlay base
+containers developed by
+[LinuxServer.io](https://hub.docker.com/u/lsiobase).
+
 * [Home page](https://jch.honig.net/)
 * [Facebook](https://www.facebook.com/jchonig)
 * [GitHub](https://github.com/jchonig)
@@ -12,11 +22,11 @@
 |---|---|
   | [HYPE - FRC 5254](https://github.com/FRC5254) ![Avatar](https://avatars3.githubusercontent.com/u/10470311?s=40&v=4) |  |
   | [The Things Network Ithaca](https://github.com/IthacaThings) ![Avatar](https://avatars1.githubusercontent.com/u/19751151?s=40&v=4) | Building a free, open source community-owned IoT network for Ithaca and Tompkins County, NY |
-  ## My Repositories
-### Owned
+  ## Repositories
+### Repositories I own
 | Name | Description | Stars |
 |---|---|---|
-  | [docker-dhcpd](https://github.com/jchonig/docker-dhcpd) | Run ISC DHCP server in a docker container | 0 |
+  | [docker-dhcpd](https://github.com/jchonig/docker-dhcpd) | Run ISC DHCP server in a docker container.  Based on Linuxserver.io containers | 0 |
   | [docker-g10k](https://github.com/jchonig/docker-g10k) | G10k and webhook in a container | 0 |
   | [docker-mmonit](https://github.com/jchonig/docker-mmonit) | A container to run M/Monit | 0 |
   | [docker-monit](https://github.com/jchonig/docker-monit) | A container to run monit | 0 |
@@ -27,7 +37,7 @@
   | [named_docker](https://github.com/jchonig/named_docker) | Run bind in a Docker container | 0 |
   | [pushbullet](https://github.com/jchonig/pushbullet) | A small python script to send pushbullet notifications | 3 |
   | [rak7200_config](https://github.com/jchonig/rak7200_config) | A tool to configure a RAK7200 | 1 |
-  ### Forked
+  ### Repositories I forked
 | Name | Description | Parent |
 |---|---|---|
   | [Catena-Sketches](https://github.com/jchonig/Catena-Sketches) | Top-level Arduino sketches for the MCCI Catena family of IoT LPWA Devices | [mcci-catena/Catena-Sketches](https://github.com/mcci-catena/Catena-Sketches) |
