@@ -14,19 +14,19 @@
   | [The Things Network Ithaca](https://github.com/IthacaThings) | Building a free, open source community-owned IoT network for Ithaca and Tompkins County, NY |
   ## My Repositories
 ### Owned
-| Name | Description |
+| Name | Description | Stars |
 |---|---|
-  | [docker-dhcpd](https://github.com/jchonig/docker-dhcpd) | Run ISC DHCP server in a docker container |
-  | [docker-g10k](https://github.com/jchonig/docker-g10k) | G10k and webhook in a container |
-  | [docker-mmonit](https://github.com/jchonig/docker-mmonit) | A container to run M/Monit |
-  | [docker-monit](https://github.com/jchonig/docker-monit) | A container to run monit |
-  | [docker-rsnapshot](https://github.com/jchonig/docker-rsnapshot) | Run rsnapshot in a container |
-  | [docker-spideroak](https://github.com/jchonig/docker-spideroak) | SpiderOakONE in a container |
-  | [jchonig](https://github.com/jchonig/jchonig) | A special repository to automatically generate my GitHub README.md |
-  | [mlinux-be](https://github.com/jchonig/mlinux-be) | Containerized build environment for MultiTech mLinux |
-  | [named_docker](https://github.com/jchonig/named_docker) | Run bind in a Docker container |
-  | [pushbullet](https://github.com/jchonig/pushbullet) | A small python script to send pushbullet notifications |
-  | [rak7200_config](https://github.com/jchonig/rak7200_config) | A tool to configure a RAK7200 |
+  | [docker-dhcpd](https://github.com/jchonig/docker-dhcpd) | Run ISC DHCP server in a docker container | 0 |
+  | [docker-g10k](https://github.com/jchonig/docker-g10k) | G10k and webhook in a container | 0 |
+  | [docker-mmonit](https://github.com/jchonig/docker-mmonit) | A container to run M/Monit | 0 |
+  | [docker-monit](https://github.com/jchonig/docker-monit) | A container to run monit | 0 |
+  | [docker-rsnapshot](https://github.com/jchonig/docker-rsnapshot) | Run rsnapshot in a container | 0 |
+  | [docker-spideroak](https://github.com/jchonig/docker-spideroak) | SpiderOakONE in a container | 0 |
+  | [jchonig](https://github.com/jchonig/jchonig) | A special repository to automatically generate my GitHub README.md | 0 |
+  | [mlinux-be](https://github.com/jchonig/mlinux-be) | Containerized build environment for MultiTech mLinux | 1 |
+  | [named_docker](https://github.com/jchonig/named_docker) | Run bind in a Docker container | 0 |
+  | [pushbullet](https://github.com/jchonig/pushbullet) | A small python script to send pushbullet notifications | 3 |
+  | [rak7200_config](https://github.com/jchonig/rak7200_config) | A tool to configure a RAK7200 | 1 |
   ### Forked
 | Name | Description | Parent |
 |---|---|---|
