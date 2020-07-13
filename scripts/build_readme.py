@@ -46,6 +46,7 @@ query {
         endCursor
       }
       nodes {
+        avatarUrl
         login
         name
         description

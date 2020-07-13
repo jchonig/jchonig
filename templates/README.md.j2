@@ -12,7 +12,7 @@
 | Name | Description |
 |---|---|
   {% for org in orgs.values()|sort(attribute="name") -%}
-| [{{ org.name }}]({{ org.url }}) | {{ org.description }} |
+| [{{ org.name }}]({{ org.url }}) ![Avatar]({{ org.avatarUrl }}) | {{ org.description }} |
   {% endfor -%}
 {% endif -%}
 
