@@ -37,6 +37,6 @@
   | [RAK811-tracker](https://github.com/jchonig/RAK811-tracker) | RAK811 ultra fast TTN Mapper node example | [jpmeijers/RAK811-tracker](https://github.com/jpmeijers/RAK811-tracker) |
   ---
 
-[How this works](https://github.com/jchonig/jchonig/blob/master/HowThisWorks.md). Created via jinja2 at 2020-07-13T00:33:08.385053
+[How this works](https://github.com/jchonig/jchonig/blob/master/HowThisWorks.md).
 
 <a href="https://github.com/jchonig/jchonig/actions"><img src="https://github.com/jchonig/jchonig/workflows/Build%20README/badge.svg" align="right" alt="Build README"></a>
