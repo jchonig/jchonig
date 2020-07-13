@@ -11,7 +11,7 @@
 ## My Organizations
 | Name | Description |
 |---|---|
-  {% for org in orgs.values() -%}
+  {% for org in orgs.values()|sort(attribute="name") -%}
 | [{{ org.name }}]({{ org.url }}) | {{ org.description }} |
   {% endfor -%}
 {% endif -%}
@@ -21,19 +21,19 @@
 ### Owned
 | Name | Description |
 |---|---|
-  {% for repo in repos.values() if not repo.isFork -%}
+  {% for repo in repos.values()|sort(attribute="name") if not repo.isFork -%}
 | [{{ repo.name }}]({{ repo.url }}) | {{ repo.description }} |
   {% endfor -%}
 ### Forked
 | Name | Description | Parent |
 |---|---|---|
-  {% for repo in repos.values() if repo.isFork -%}
+  {% for repo in repos.values()|sort(attribute="name") if repo.isFork -%}
 | [{{ repo.name }}]({{ repo.url }}) | {{ repo.description }} | [{{repo.parent.nameWithOwner }}]({{ repo.parent.url }}) |
   {% endfor -%}
 {% endif -%}
 
 ---
 
-[How this works](https://github.com/jchonig/jchonig/blob/master/HowThisWorks.md) Created via jinja2 at {{ created.at }}
+[How this works](https://github.com/jchonig/jchonig/blob/master/HowThisWorks.md). Created via jinja2 at {{ created.at }}
 
 <a href="https://github.com/jchonig/jchonig/actions"><img src="https://github.com/jchonig/jchonig/workflows/Build%20README/badge.svg" align="right" alt="Build README"></a>
