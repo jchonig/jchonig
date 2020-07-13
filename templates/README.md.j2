@@ -2,6 +2,16 @@
 
 ## About me
 
+I mostly work on system Configuration Management projects (Puppet,
+Ansible).
+
+Many of these repos are dockerized versions of system services I run
+on my home systems.
+
+I really like building containers based on the s6-overlay base
+containers developed by
+[LinuxServer.io](https://hub.docker.com/u/lsiobase).
+
 * [Home page](https://jch.honig.net/)
 * [Facebook](https://www.facebook.com/jchonig)
 * [GitHub](https://github.com/jchonig)
@@ -17,14 +27,14 @@
 {% endif -%}
 
 {% if repos -%}
-## My Repositories
-### Owned
+## Repositories
+### Repositories I own
 | Name | Description | Stars |
 |---|---|---|
   {% for repo in repos.values()|sort(attribute="name") if not repo.isFork -%}
 | [{{ repo.name }}]({{ repo.url }}) | {{ repo.description }} | {{ repo.stargazers.totalCount }} |
   {% endfor -%}
-### Forked
+### Repositories I forked
 | Name | Description | Parent |
 |---|---|---|
   {% for repo in repos.values()|sort(attribute="name") if repo.isFork -%}
