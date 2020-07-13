@@ -46,7 +46,7 @@ query {
         endCursor
       }
       nodes {
-        avatarUrl
+        avatarUrl(size: 40)
         login
         name
         description
