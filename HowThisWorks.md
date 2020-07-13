@@ -12,7 +12,7 @@ special in that the README shows up on your home page.
 Second, periodically, or when I push to the repo, GitHub runs my
 python script to rebuild my README.md.
 
-Of course, I modified his sdcript.
+Of course, I modified his script.
 
 * I use [jinja2](https://jinja.palletsprojects.com/en/2.11.x/) template as the source of the README.md
 * I do a couple different GitHub GraphGL queries, and do them separately.
