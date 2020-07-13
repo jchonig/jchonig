@@ -19,10 +19,10 @@
 {% if repos -%}
 ## My Repositories
 ### Owned
-| Name | Description |
+| Name | Description | Stars |
 |---|---|
   {% for repo in repos.values()|sort(attribute="name") if not repo.isFork -%}
-| [{{ repo.name }}]({{ repo.url }}) | {{ repo.description }} |
+| [{{ repo.name }}]({{ repo.url }}) | {{ repo.description }} | {{ repo.stargazers.totalCount }} |
   {% endfor -%}
 ### Forked
 | Name | Description | Parent |

@@ -27,6 +27,9 @@ query {
           nameWithOwner
           url
         }
+        stargazers {
+          totalCount
+        }
         url
       }
     }
