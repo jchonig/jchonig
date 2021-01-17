@@ -32,6 +32,7 @@ images developed by
   | [docker-mmonit](https://github.com/jchonig/docker-mmonit) | A container to run M/Monit | 1 |
   | [docker-monit](https://github.com/jchonig/docker-monit) | A container to run monit | 0 |
   | [docker-nut-cgi](https://github.com/jchonig/docker-nut-cgi) | Nut CGI in a container | 0 |
+  | [docker-postfix](https://github.com/jchonig/docker-postfix) | Postfix running in a container | 0 |
   | [docker-rsnapshot](https://github.com/jchonig/docker-rsnapshot) | Run rsnapshot in a container | 0 |
   | [docker-spideroak](https://github.com/jchonig/docker-spideroak) | SpiderOakONE in a container | 0 |
   | [jchonig](https://github.com/jchonig/jchonig) | A special repository to automatically generate my GitHub README.md | 0 |
