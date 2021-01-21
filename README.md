@@ -21,8 +21,8 @@ images developed by
 ## My Organizations
 | Name | Description |
 |---|---|
-  | [HYPE - FRC 5254](https://github.com/FRC5254) ![Avatar](https://avatars3.githubusercontent.com/u/10470311?s=40&v=4) |  |
-  | [The Things Network Ithaca](https://github.com/IthacaThings) ![Avatar](https://avatars1.githubusercontent.com/u/19751151?s=40&v=4) | Building a free, open source community-owned IoT network for Ithaca and Tompkins County, NY |
+  | [HYPE - FRC 5254](https://github.com/FRC5254) ![Avatar](https://avatars.githubusercontent.com/u/10470311?s=40&v=4) |  |
+  | [The Things Network Ithaca](https://github.com/IthacaThings) ![Avatar](https://avatars.githubusercontent.com/u/19751151?s=40&v=4) | Building a free, open source community-owned IoT network for Ithaca and Tompkins County, NY |
   ## Repositories
 ### Repositories I own
 | Name | Description | Stars |
