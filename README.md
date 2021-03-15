@@ -37,7 +37,6 @@ images developed by
   | [docker-postfix](https://github.com/jchonig/docker-postfix) | Postfix running in a container | 0 |
   | [docker-rsnapshot](https://github.com/jchonig/docker-rsnapshot) | Run rsnapshot in a container | 0 |
   | [docker-spideroak](https://github.com/jchonig/docker-spideroak) | SpiderOakONE in a container | 0 |
-  | [docker-tftpd](https://github.com/jchonig/docker-tftpd) | An Alpine container serving TFTP | 0 |
   | [homebrew-conman](https://github.com/jchonig/homebrew-conman) | Homebrew formula | 0 |
   | [jchonig](https://github.com/jchonig/jchonig) | A special repository to automatically generate my GitHub README.md | 0 |
   | [mlinux-be](https://github.com/jchonig/mlinux-be) | Containerized build environment for MultiTech mLinux | 1 |
