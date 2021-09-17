@@ -31,8 +31,8 @@ images developed by
   | [docker-conman](https://github.com/jchonig/docker-conman) | A docker container to run https://github.com/dun/conman | 0 |
   | [docker-dhcpd](https://github.com/jchonig/docker-dhcpd) | Run ISC DHCP server in a docker container.  Based on Linuxserver.io containers | 0 |
   | [docker-g10k](https://github.com/jchonig/docker-g10k) | G10k and webhook in a container | 0 |
-  | [docker-mmonit](https://github.com/jchonig/docker-mmonit) | A container to run M/Monit | 1 |
-  | [docker-monit](https://github.com/jchonig/docker-monit) | A container to run monit | 0 |
+  | [docker-mmonit](https://github.com/jchonig/docker-mmonit) | A container to run M/Monit | 2 |
+  | [docker-monit](https://github.com/jchonig/docker-monit) | A container to run monit | 1 |
   | [docker-nut-cgi](https://github.com/jchonig/docker-nut-cgi) | Nut CGI in a container | 1 |
   | [docker-postfix](https://github.com/jchonig/docker-postfix) | Postfix running in a container | 0 |
   | [docker-rsnapshot](https://github.com/jchonig/docker-rsnapshot) | Run rsnapshot in a container | 0 |
