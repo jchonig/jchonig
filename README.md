@@ -51,6 +51,7 @@ images developed by
   | [Catena-Sketches](https://github.com/jchonig/Catena-Sketches) | Top-level Arduino sketches for the MCCI Catena family of IoT LPWA Devices | [mcci-catena/Catena-Sketches](https://github.com/mcci-catena/Catena-Sketches) |
   | [conduit-mfg](https://github.com/jchonig/conduit-mfg) | Manufacturing instructions for deploying Conduits with Ansible | [terrillmoore/conduit-mfg](https://github.com/terrillmoore/conduit-mfg) |
   | [home-assistant](https://github.com/jchonig/home-assistant) | :house_with_garden: Open source home automation that puts local control and privacy first | [home-assistant/core](https://github.com/home-assistant/core) |
+  | [hubitat](https://github.com/jchonig/hubitat) | My Hubitat Stuff | [djdizzyd/hubitat](https://github.com/djdizzyd/hubitat) |
   | [RAK811-tracker](https://github.com/jchonig/RAK811-tracker) | RAK811 ultra fast TTN Mapper node example | [jpmeijers/RAK811-tracker](https://github.com/jpmeijers/RAK811-tracker) |
   ---
 
