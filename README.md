@@ -23,7 +23,7 @@ images developed by
 |---|---|
   | [HYPE - FRC 5254](https://github.com/FRC5254) ![Avatar](https://avatars.githubusercontent.com/u/10470311?s=40&v=4) |  |
   | [The Things Network Ithaca](https://github.com/IthacaThings) ![Avatar](https://avatars.githubusercontent.com/u/19751151?s=40&v=4) | Building a free, open source community-owned IoT network for Ithaca and Tompkins County, NY |
-  | [The Things Network New York](https://github.com/things-nyc) | Facilitating a Free and Open Source Internet of Things Data Network |
+  | [The Things Network New York](https://github.com/things-nyc) ![Avatar](https://avatars.githubusercontent.com/u/19333054?s=40&v=4) | Deploying The Things Network in New York City |
   ## Repositories
 ### Repositories I own
 | Name | Description | Stars |
