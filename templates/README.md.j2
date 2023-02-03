@@ -15,6 +15,7 @@ images developed by
 
 * [Home page](https://jch.honig.net/)
 * [Facebook](https://www.facebook.com/jchonig)
+* [Fetaverse](https://twit.social/@jchonig)
 * [GitHub](https://github.com/jchonig)
 * [LinkedIn](https://www.linkedin.com/in/jchonig/)
 
