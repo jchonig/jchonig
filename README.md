@@ -37,7 +37,7 @@ images developed by
   | [docker-mmonit](https://github.com/jchonig/docker-mmonit) | A container to run M/Monit | 5 |
   | [docker-monit](https://github.com/jchonig/docker-monit) | A container to run monit | 1 |
   | [docker-nut-cgi](https://github.com/jchonig/docker-nut-cgi) | Nut CGI in a container | 5 |
-  | [docker-postfix](https://github.com/jchonig/docker-postfix) | Postfix running in a container | 0 |
+  | [docker-postfix](https://github.com/jchonig/docker-postfix) | Postfix running in a container | 1 |
   | [docker-rsnapshot](https://github.com/jchonig/docker-rsnapshot) | Run rsnapshot in a container | 0 |
   | [docker-spideroak](https://github.com/jchonig/docker-spideroak) | SpiderOakONE in a container | 0 |
   | [docker-webhook](https://github.com/jchonig/docker-webhook) | A container to run adnanh/webhook under lsio's s6 overlay containers | 0 |
