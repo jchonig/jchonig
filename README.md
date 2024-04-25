@@ -35,7 +35,7 @@ images developed by
   | [docker-dhcpd](https://github.com/jchonig/docker-dhcpd) | Run ISC DHCP server in a docker container.  Based on Linuxserver.io containers | 1 |
   | [docker-g10k](https://github.com/jchonig/docker-g10k) | G10k and webhook in a container | 0 |
   | [docker-meetup-slack](https://github.com/jchonig/docker-meetup-slack) | Post notices about Meetup events in a Slack channel | 0 |
-  | [docker-mmonit](https://github.com/jchonig/docker-mmonit) | A container to run M/Monit | 6 |
+  | [docker-mmonit](https://github.com/jchonig/docker-mmonit) | A container to run M/Monit | 7 |
   | [docker-monit](https://github.com/jchonig/docker-monit) | A container to run monit | 1 |
   | [docker-nut-cgi](https://github.com/jchonig/docker-nut-cgi) | Nut CGI in a container | 8 |
   | [docker-postfix](https://github.com/jchonig/docker-postfix) | Postfix running in a container | 1 |
