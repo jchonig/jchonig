@@ -35,10 +35,10 @@ images developed by
   | [docker-dhcpd](https://github.com/jchonig/docker-dhcpd) | Run ISC DHCP server in a docker container.  Based on Linuxserver.io containers | 1 |
   | [docker-g10k](https://github.com/jchonig/docker-g10k) | G10k and webhook in a container | 0 |
   | [docker-meetup-slack](https://github.com/jchonig/docker-meetup-slack) | Post notices about Meetup events in a Slack channel | 0 |
-  | [docker-mmonit](https://github.com/jchonig/docker-mmonit) | A container to run M/Monit | 9 |
+  | [docker-mmonit](https://github.com/jchonig/docker-mmonit) | A container to run M/Monit | 10 |
   | [docker-monit](https://github.com/jchonig/docker-monit) | A container to run monit | 1 |
   | [docker-nut-cgi](https://github.com/jchonig/docker-nut-cgi) | Nut CGI in a container | 8 |
-  | [docker-postfix](https://github.com/jchonig/docker-postfix) | Postfix running in a container | 1 |
+  | [docker-postfix](https://github.com/jchonig/docker-postfix) | Postfix running in a container | 2 |
   | [docker-rsnapshot](https://github.com/jchonig/docker-rsnapshot) | Run rsnapshot in a container | 0 |
   | [docker-spideroak](https://github.com/jchonig/docker-spideroak) | SpiderOakONE in a container | 0 |
   | [docker-webhook](https://github.com/jchonig/docker-webhook) | A container to run adnanh/webhook under lsio's s6 overlay containers | 0 |
