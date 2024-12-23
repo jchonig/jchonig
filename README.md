@@ -43,6 +43,7 @@ images developed by
   | [docker-rsnapshot](https://github.com/jchonig/docker-rsnapshot) | Run rsnapshot in a container | 0 |
   | [docker-spideroak](https://github.com/jchonig/docker-spideroak) | SpiderOakONE in a container | 0 |
   | [docker-webhook](https://github.com/jchonig/docker-webhook) | A container to run adnanh/webhook under lsio's s6 overlay containers | 0 |
+  | [ha_cyberq](https://github.com/jchonig/ha_cyberq) | BBQ Guru Cyberq Cloud and WiFi integration for HomeAssistant | 0 |
   | [homebrew-conman](https://github.com/jchonig/homebrew-conman) | Homebrew formula | 0 |
   | [hubitat](https://github.com/jchonig/hubitat) | Hubitat apps and drivers | 0 |
   | [hubitat-pushbullet](https://github.com/jchonig/hubitat-pushbullet) | Pushbullet support for Hubitat | 0 |
