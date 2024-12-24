@@ -59,6 +59,7 @@ images developed by
   ### Repositories I forked
 | Name | Description | Parent |
 |---|---|---|
+  | [brands](https://github.com/jchonig/brands) | 🎨 Brands for Home Assistant | [home-assistant/brands](https://github.com/home-assistant/brands) |
   | [Catena-Sketches](https://github.com/jchonig/Catena-Sketches) | Top-level Arduino sketches for the MCCI Catena family of IoT LPWA Devices | [mcci-catena/Catena-Sketches](https://github.com/mcci-catena/Catena-Sketches) |
   | [conduit-mfg](https://github.com/jchonig/conduit-mfg) | Manufacturing instructions for deploying Conduits with Ansible | [terrillmoore/conduit-mfg](https://github.com/terrillmoore/conduit-mfg) |
   | [docker-ldap-auth](https://github.com/jchonig/docker-ldap-auth) | None | [linuxserver/docker-ldap-auth](https://github.com/linuxserver/docker-ldap-auth) |
