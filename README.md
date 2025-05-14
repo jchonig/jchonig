@@ -66,6 +66,7 @@ images developed by
   | [home-assistant](https://github.com/jchonig/home-assistant) | :house_with_garden: Open source home automation that puts local control and privacy first | [home-assistant/core](https://github.com/home-assistant/core) |
   | [homebrew-core](https://github.com/jchonig/homebrew-core) | 🍻 Default formulae for the missing package manager for macOS (or Linux) | [Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core) |
   | [hubitat-1](https://github.com/jchonig/hubitat-1) | None | [augoisms/hubitat](https://github.com/augoisms/hubitat) |
+  | [jazzhands](https://github.com/jchonig/jazzhands) | Primary JazzHands repository | [JazzHandsCMDB/jazzhands](https://github.com/JazzHandsCMDB/jazzhands) |
   | [RAK811-tracker](https://github.com/jchonig/RAK811-tracker) | RAK811 ultra fast TTN Mapper node example | [jpmeijers/RAK811-tracker](https://github.com/jpmeijers/RAK811-tracker) |
   ---
 
