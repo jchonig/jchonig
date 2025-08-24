@@ -54,7 +54,7 @@ images developed by
   | [pfsense_scripts](https://github.com/jchonig/pfsense_scripts) | pfSense support scripts | 2 |
   | [pushbullet](https://github.com/jchonig/pushbullet) | A small python script to send pushbullet notifications | 4 |
   | [rak7200_config](https://github.com/jchonig/rak7200_config) | A tool to configure a RAK7200 | 6 |
-  | [tempest_influx](https://github.com/jchonig/tempest_influx) | Go program to convert WeatherFlow Tempest WX UDP broadcasts to influx wire protocol | 1 |
+  | [tempest_influx](https://github.com/jchonig/tempest_influx) | Go program to convert WeatherFlow Tempest WX UDP broadcasts to influx wire protocol | 2 |
   | [things-nyc.github.io](https://github.com/things-nyc/things-nyc.github.io) | Website for TheThingsNetwork NYC | 2 |
   ### Repositories I forked
 | Name | Description | Parent |
