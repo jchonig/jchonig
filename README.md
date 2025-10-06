@@ -71,6 +71,7 @@ images developed by
   | [jazzhands](https://github.com/jchonig/jazzhands) | Primary JazzHands repository | [JazzHandsCMDB/jazzhands](https://github.com/JazzHandsCMDB/jazzhands) |
   | [map-tile-downloader](https://github.com/jchonig/map-tile-downloader) | None | [mattdrum/map-tile-downloader](https://github.com/mattdrum/map-tile-downloader) |
   | [RAK811-tracker](https://github.com/jchonig/RAK811-tracker) | RAK811 ultra fast TTN Mapper node example | [jpmeijers/RAK811-tracker](https://github.com/jpmeijers/RAK811-tracker) |
+  | [supermon-ng](https://github.com/jchonig/supermon-ng) | supermon-ng rewrite of supermon2 for asl3! | [hardenedpenguin/supermon-ng](https://github.com/hardenedpenguin/supermon-ng) |
   ---
 
 [How this works](https://github.com/jchonig/jchonig/blob/master/HowThisWorks.md).
