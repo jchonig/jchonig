@@ -69,6 +69,7 @@ images developed by
   | [homebrew-core](https://github.com/jchonig/homebrew-core) | 🍻 Default formulae for the missing package manager for macOS (or Linux) | [Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core) |
   | [hubitat-1](https://github.com/jchonig/hubitat-1) | None | [augoisms/hubitat](https://github.com/augoisms/hubitat) |
   | [jazzhands](https://github.com/jchonig/jazzhands) | Primary JazzHands repository | [JazzHandsCMDB/jazzhands](https://github.com/JazzHandsCMDB/jazzhands) |
+  | [kanidm](https://github.com/jchonig/kanidm) | Kanidm: A simple, secure, and fast identity management platform | [kanidm/kanidm](https://github.com/kanidm/kanidm) |
   | [map-tile-downloader](https://github.com/jchonig/map-tile-downloader) | None | [mattdrum/map-tile-downloader](https://github.com/mattdrum/map-tile-downloader) |
   | [RAK811-tracker](https://github.com/jchonig/RAK811-tracker) | RAK811 ultra fast TTN Mapper node example | [jpmeijers/RAK811-tracker](https://github.com/jpmeijers/RAK811-tracker) |
   | [supermon-ng](https://github.com/jchonig/supermon-ng) | supermon-ng rewrite of supermon2 for asl3! | [hardenedpenguin/supermon-ng](https://github.com/hardenedpenguin/supermon-ng) |
