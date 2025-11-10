@@ -46,10 +46,10 @@ images developed by
   | [ha_blueprints](https://github.com/jchonig/ha_blueprints) | Home Assistant blueprints | 0 |
   | [ha_cyberq](https://github.com/jchonig/ha_cyberq) | BBQ Guru Cyberq Cloud and WiFi integration for HomeAssistant | 2 |
   | [homebrew-conman](https://github.com/jchonig/homebrew-conman) | Homebrew formula | 0 |
+  | [honig.net](https://github.com/jchonig/honig.net) | honig.net website | 0 |
   | [hubitat](https://github.com/jchonig/hubitat) | Hubitat apps and drivers | 0 |
   | [hubitat-pushbullet](https://github.com/jchonig/hubitat-pushbullet) | Pushbullet support for Hubitat | 0 |
   | [jchonig](https://github.com/jchonig/jchonig) | A special repository to automatically generate my GitHub README.md | 0 |
-  | [jchonig.github.io](https://github.com/jchonig/jchonig.github.io) | jchonig.github.io | 0 |
   | [mlinux-be](https://github.com/jchonig/mlinux-be) | Containerized build environment for MultiTech mLinux | 2 |
   | [n2vlv](https://github.com/jchonig/n2vlv) | N2VLV website | 0 |
   | [named_docker](https://github.com/jchonig/named_docker) | Run bind in a Docker container | 0 |
