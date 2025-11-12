@@ -17,4 +17,3 @@ Of course, I modified his script.
 * I use [jinja2](https://jinja.palletsprojects.com/en/2.11.x/) template as the source of the README.md
 * I do a couple different GitHub GraphGL queries, and do them separately.
 * I don't have a blog, so I removed that and some other stuff.
-
