@@ -1,4 +1,4 @@
-exclude: ^(_dl/|docs/_site/|docs/css/|docs/fonts/|docs/js/)
+exclude: ^(_dl/|docs/_site/|docs/css/|docs/fonts/|docs/js/|README.md)
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
