@@ -48,7 +48,6 @@ images developed by
   | [homebrew-conman](https://github.com/jchonig/homebrew-conman) | Homebrew formula | 0 |
   | [honig.net](https://github.com/jchonig/honig.net) | honig.net website | 0 |
   | [hubitat](https://github.com/jchonig/hubitat) | Hubitat apps and drivers | 0 |
-  | [hubitat-pushbullet](https://github.com/jchonig/hubitat-pushbullet) | Pushbullet support for Hubitat | 0 |
   | [jchonig](https://github.com/jchonig/jchonig) | A special repository to automatically generate my GitHub README.md | 0 |
   | [mlinux-be](https://github.com/jchonig/mlinux-be) | Containerized build environment for MultiTech mLinux | 2 |
   | [n2vlv](https://github.com/jchonig/n2vlv) | N2VLV website | 0 |
