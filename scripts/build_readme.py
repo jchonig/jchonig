@@ -72,7 +72,7 @@ def repo_parser(result, data):
 
 def make_query(query, after_cursor=None):
     """ Insert the cursor into the query """
-    
+
     return query % (after_cursor or "null")
 
 def org_parser(result, data):
@@ -146,7 +146,7 @@ def main():
 
     with open(os.path.join(root, "README.md"), "w") as filep:
         filep.write(contents)
-        
+
 if __name__ == "__main__":
     main()
     sys.exit(0)
