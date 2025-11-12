@@ -1,0 +1,9 @@
+exclude: ^(_dl/|docs/_site/|docs/css/|docs/fonts/|docs/js/)
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
