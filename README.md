@@ -45,6 +45,7 @@ images developed by
   | [docker-webhook](https://github.com/jchonig/docker-webhook) | A container to run adnanh/webhook under lsio's s6 overlay containers | 0 |
   | [ha_blueprints](https://github.com/jchonig/ha_blueprints) | Home Assistant blueprints | 0 |
   | [ha_cyberq](https://github.com/jchonig/ha_cyberq) | BBQ Guru Cyberq Cloud and WiFi integration for HomeAssistant | 2 |
+  | [homebrew-casks](https://github.com/jchonig/homebrew-casks) | My personal homebrew casks | 0 |
   | [homebrew-conman](https://github.com/jchonig/homebrew-conman) | Homebrew formula | 0 |
   | [honig.net](https://github.com/jchonig/honig.net) | honig.net website | 0 |
   | [hubitat](https://github.com/jchonig/hubitat) | Hubitat apps and drivers | 0 |
