@@ -54,6 +54,7 @@ images developed by
   | [n2vlv](https://github.com/jchonig/n2vlv) | N2VLV website | 0 |
   | [named_docker](https://github.com/jchonig/named_docker) | Run bind in a Docker container | 0 |
   | [pfsense_scripts](https://github.com/jchonig/pfsense_scripts) | pfSense support scripts | 2 |
+  | [pres-allstar](https://github.com/jchonig/pres-allstar) | A presentation about AllStar | 0 |
   | [pushbullet](https://github.com/jchonig/pushbullet) | A small python script to send pushbullet notifications | 4 |
   | [rak7200_config](https://github.com/jchonig/rak7200_config) | A tool to configure a RAK7200 | 6 |
   | [tempest_influx](https://github.com/jchonig/tempest_influx) | Go program to convert WeatherFlow Tempest WX UDP broadcasts to influx wire protocol | 2 |
