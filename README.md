@@ -28,6 +28,7 @@ images developed by
 ### Repositories I own
 | Name | Description | Stars |
 |---|---|---|
+  | [allstar-yaamon](https://github.com/jchonig/allstar-yaamon) | Yet Another Allstar favorites and monitor script | 0 |
   | [docker-bind9](https://github.com/jchonig/docker-bind9) | A container to run named | 0 |
   | [docker-conman](https://github.com/jchonig/docker-conman) | A docker container to run https://github.com/dun/conman | 0 |
   | [docker-dhcpd](https://github.com/jchonig/docker-dhcpd) | Run ISC DHCP server in a docker container.  Based on Linuxserver.io containers | 1 |
@@ -40,7 +41,6 @@ images developed by
   | [docker-postfix](https://github.com/jchonig/docker-postfix) | Postfix running in a container | 2 |
   | [docker-rsnapshot](https://github.com/jchonig/docker-rsnapshot) | Run rsnapshot in a container | 0 |
   | [docker-spideroak](https://github.com/jchonig/docker-spideroak) | SpiderOakONE in a container | 0 |
-  | [docker-supermon-ng](https://github.com/jchonig/docker-supermon-ng) | Docker container to run supermon-ng | 0 |
   | [docker-webhook](https://github.com/jchonig/docker-webhook) | A container to run adnanh/webhook under lsio's s6 overlay containers | 0 |
   | [ha_blueprints](https://github.com/jchonig/ha_blueprints) | Home Assistant blueprints | 0 |
   | [ha_cyberq](https://github.com/jchonig/ha_cyberq) | BBQ Guru Cyberq Cloud and WiFi integration for HomeAssistant | 3 |
@@ -74,7 +74,6 @@ images developed by
   | [kanidm](https://github.com/jchonig/kanidm) | Kanidm: A simple, secure, and fast identity management platform | [kanidm/kanidm](https://github.com/kanidm/kanidm) |
   | [map-tile-downloader](https://github.com/jchonig/map-tile-downloader) | None | [mattdrum/map-tile-downloader](https://github.com/mattdrum/map-tile-downloader) |
   | [RAK811-tracker](https://github.com/jchonig/RAK811-tracker) | RAK811 ultra fast TTN Mapper node example | [jpmeijers/RAK811-tracker](https://github.com/jpmeijers/RAK811-tracker) |
-  | [supermon-ng](https://github.com/jchonig/supermon-ng) | supermon-ng rewrite of supermon2 for asl3! | [hardenedpenguin/supermon-ng](https://github.com/hardenedpenguin/supermon-ng) |
   ---
 
 [How this works](https://github.com/jchonig/jchonig/blob/master/HowThisWorks.md).
