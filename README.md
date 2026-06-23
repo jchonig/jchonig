@@ -43,7 +43,7 @@ images developed by
   | [docker-spideroak](https://github.com/jchonig/docker-spideroak) | SpiderOakONE in a container | 0 |
   | [docker-webhook](https://github.com/jchonig/docker-webhook) | A container to run adnanh/webhook under lsio's s6 overlay containers | 0 |
   | [ha_blueprints](https://github.com/jchonig/ha_blueprints) | Home Assistant blueprints | 0 |
-  | [ha_cyberq](https://github.com/jchonig/ha_cyberq) | BBQ Guru Cyberq Cloud and WiFi integration for HomeAssistant | 3 |
+  | [ha_cyberq](https://github.com/jchonig/ha_cyberq) | BBQ Guru Cyberq Cloud and WiFi integration for HomeAssistant | 4 |
   | [homebrew-casks](https://github.com/jchonig/homebrew-casks) | My personal homebrew casks | 0 |
   | [homebrew-conman](https://github.com/jchonig/homebrew-conman) | Homebrew formula | 0 |
   | [honig.net](https://github.com/jchonig/honig.net) | honig.net website | 0 |
@@ -68,6 +68,7 @@ images developed by
   | [docker-ldap-auth](https://github.com/jchonig/docker-ldap-auth) | None | [linuxserver/docker-ldap-auth](https://github.com/linuxserver/docker-ldap-auth) |
   | [docker-netbox](https://github.com/jchonig/docker-netbox) | None | [linuxserver/docker-netbox](https://github.com/linuxserver/docker-netbox) |
   | [home-assistant](https://github.com/jchonig/home-assistant) | :house_with_garden: Open source home automation that puts local control and privacy first | [home-assistant/core](https://github.com/home-assistant/core) |
+  | [homebrew-brew](https://github.com/jchonig/homebrew-brew) | None | [NotWadeGrimridge/homebrew-brew](https://github.com/NotWadeGrimridge/homebrew-brew) |
   | [homebrew-core](https://github.com/jchonig/homebrew-core) | 🍻 Default formulae for the missing package manager for macOS (or Linux) | [Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core) |
   | [hubitat-1](https://github.com/jchonig/hubitat-1) | None | [augoisms/hubitat](https://github.com/augoisms/hubitat) |
   | [jazzhands](https://github.com/jchonig/jazzhands) | Primary JazzHands repository | [JazzHandsCMDB/jazzhands](https://github.com/JazzHandsCMDB/jazzhands) |
