@@ -42,6 +42,7 @@ images developed by
   | [docker-rsnapshot](https://github.com/jchonig/docker-rsnapshot) | Run rsnapshot in a container | 0 |
   | [docker-spideroak](https://github.com/jchonig/docker-spideroak) | SpiderOakONE in a container | 0 |
   | [docker-webhook](https://github.com/jchonig/docker-webhook) | A container to run adnanh/webhook under lsio's s6 overlay containers | 0 |
+  | [fetchbox](https://github.com/jchonig/fetchbox) | A docker-based program to fetch attachments from e-mail messages and save them in network stores | 0 |
   | [ha_blueprints](https://github.com/jchonig/ha_blueprints) | Home Assistant blueprints | 0 |
   | [ha_cyberq](https://github.com/jchonig/ha_cyberq) | BBQ Guru Cyberq Cloud and WiFi integration for HomeAssistant | 4 |
   | [homebrew-casks](https://github.com/jchonig/homebrew-casks) | My personal homebrew casks | 0 |
