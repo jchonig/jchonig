@@ -66,15 +66,9 @@ images developed by
   | [brands](https://github.com/jchonig/brands) | 🎨 Brands for Home Assistant | [home-assistant/brands](https://github.com/home-assistant/brands) |
   | [Catena-Sketches](https://github.com/jchonig/Catena-Sketches) | Top-level Arduino sketches for the MCCI Catena family of IoT LPWA Devices | [mcci-catena/Catena-Sketches](https://github.com/mcci-catena/Catena-Sketches) |
   | [conduit-mfg](https://github.com/jchonig/conduit-mfg) | Manufacturing instructions for deploying Conduits with Ansible | [terrillmoore/conduit-mfg](https://github.com/terrillmoore/conduit-mfg) |
-  | [docker-ldap-auth](https://github.com/jchonig/docker-ldap-auth) | None | [linuxserver/docker-ldap-auth](https://github.com/linuxserver/docker-ldap-auth) |
   | [docker-netbox](https://github.com/jchonig/docker-netbox) | None | [linuxserver/docker-netbox](https://github.com/linuxserver/docker-netbox) |
   | [home-assistant](https://github.com/jchonig/home-assistant) | :house_with_garden: Open source home automation that puts local control and privacy first | [home-assistant/core](https://github.com/home-assistant/core) |
-  | [homebrew-brew](https://github.com/jchonig/homebrew-brew) | None | [NotWadeGrimridge/homebrew-brew](https://github.com/NotWadeGrimridge/homebrew-brew) |
   | [homebrew-core](https://github.com/jchonig/homebrew-core) | 🍻 Default formulae for the missing package manager for macOS (or Linux) | [Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core) |
-  | [hubitat-1](https://github.com/jchonig/hubitat-1) | None | [augoisms/hubitat](https://github.com/augoisms/hubitat) |
-  | [jazzhands](https://github.com/jchonig/jazzhands) | Primary JazzHands repository | [JazzHandsCMDB/jazzhands](https://github.com/JazzHandsCMDB/jazzhands) |
-  | [kanidm](https://github.com/jchonig/kanidm) | Kanidm: A simple, secure, and fast identity management platform | [kanidm/kanidm](https://github.com/kanidm/kanidm) |
-  | [map-tile-downloader](https://github.com/jchonig/map-tile-downloader) | None | [mattdrum/map-tile-downloader](https://github.com/mattdrum/map-tile-downloader) |
   | [RAK811-tracker](https://github.com/jchonig/RAK811-tracker) | RAK811 ultra fast TTN Mapper node example | [jpmeijers/RAK811-tracker](https://github.com/jpmeijers/RAK811-tracker) |
   ---
 
