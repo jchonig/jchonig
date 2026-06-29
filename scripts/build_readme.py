@@ -7,7 +7,7 @@ import pprint
 import re
 import sys
 
-from python_graphql_client import GraphqlClient
+import requests
 
 REPO_QUERY="""
 query {
@@ -86,7 +86,7 @@ def org_parser(result, data):
     result.setdefault("orgs", {})
     result["orgs"].update(orgs)
 
-def fetch_ql(client, oauth_token, query, category, parser):
+def fetch_ql(oauth_token, query, category, parser):
     """ Execute a query and return the data """
     has_next_page = True
     after_cursor = None
@@ -94,10 +94,13 @@ def fetch_ql(client, oauth_token, query, category, parser):
     result = {}
 
     while has_next_page:
-        data = client.execute(
-            query=make_query(query, after_cursor),
+        response = requests.post(
+            "https://api.github.com/graphql",
+            json={"query": make_query(query, after_cursor)},
             headers={"Authorization": "Bearer {}".format(oauth_token)},
         )
+        response.raise_for_status()
+        data = response.json()
 
         viewer = data["data"]["viewer"]
         parser(result, viewer[category]["nodes"])
@@ -113,7 +116,6 @@ def main():
 
     root = pathlib.Path(__file__).parent.parent.resolve()
     print("root: %s" % root)
-    client = GraphqlClient(endpoint="https://api.github.com/graphql")
 
     token = os.environ.get("JCHONIG_TOKEN", "")
 
@@ -130,8 +132,8 @@ def main():
         }
     }
 
-    params.update(fetch_ql(client, token, ORG_QUERY, "organizations", org_parser))
-    params.update(fetch_ql(client, token, REPO_QUERY, "repositories", repo_parser))
+    params.update(fetch_ql(token, ORG_QUERY, "organizations", org_parser))
+    params.update(fetch_ql(token, REPO_QUERY, "repositories", repo_parser))
 
     pprint.pprint(params)
 
