@@ -49,4 +49,4 @@ jobs:
       - name: Keep workflow alive
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh workflow enable "${{ github.workflow }}" --repo "${{ github.repository }}"
+        run: gh workflow enable "$(basename "${GITHUB_WORKFLOW_REF%@*}")" --repo "${{ github.repository }}"
