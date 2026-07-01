@@ -42,6 +42,6 @@ jobs:
 
   keepalive:
     if: github.event_name == 'schedule'
-    uses: jchonig/private-workflows/.github/workflows/keepalive.yml@main
+    uses: jchonig/workflows/.github/workflows/keepalive.yml@main
     permissions:
       actions: write
