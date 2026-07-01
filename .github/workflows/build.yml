@@ -42,6 +42,11 @@ jobs:
 
   keepalive:
     if: github.event_name == 'schedule'
-    uses: jchonig/jchonig/.github/workflows/keepalive.yml@master
+    runs-on: ubuntu-latest
     permissions:
       actions: write
+    steps:
+      - name: Keep workflow alive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow enable "$(basename "${GITHUB_WORKFLOW_REF%@*}")" --repo "${{ github.repository }}"
