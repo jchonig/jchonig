@@ -29,6 +29,7 @@ images developed by
 | Name | Description | Stars |
 |---|---|---|
   | [allstar-yaamon](https://github.com/jchonig/allstar-yaamon) | Yet Another Allstar favorites and monitor script | 2 |
+  | [bitx-gps-station](https://github.com/jchonig/bitx-gps-station) | A program to set time and grid square from a GPS on sBitx and zBitx | 0 |
   | [docker-bind9](https://github.com/jchonig/docker-bind9) | A container to run named | 0 |
   | [docker-conman](https://github.com/jchonig/docker-conman) | A docker container to run https://github.com/dun/conman | 0 |
   | [docker-dhcpd](https://github.com/jchonig/docker-dhcpd) | Run ISC DHCP server in a docker container.  Based on Linuxserver.io containers | 1 |
